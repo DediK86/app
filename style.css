@@ -1,5 +1,22 @@
 ul {
+    background-color: #f1f1f1;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 200px;
+}
+
+li a {
+    color: #000;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li .activate {
+    background-color: #04AA6D;
+    color: white;
+}
+li a:hover:not(.activate) {
+    background-color: #555;
+    color: white;
 }
